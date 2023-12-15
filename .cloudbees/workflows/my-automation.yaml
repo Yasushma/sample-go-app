@@ -3,7 +3,8 @@ kind: workflow
 name: My automation
 
 on:
-  push
+  push:
+    branches: [main]
 
 jobs:
   ci-job:
