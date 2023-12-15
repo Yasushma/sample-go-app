@@ -3,9 +3,7 @@ kind: workflow
 name: My automation
 
 on:
-  push:
-    branches:
-      - '**'
+  push
 
 jobs:
   ci-job:
